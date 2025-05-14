@@ -2,7 +2,7 @@
 
 Script to look through user, group, and policies
 1. Get Access Token
-2. User/Group: Get User's Groups & Permissions (Now Includes Permissions!)
+2. User/Group: Get User's Groups & Permissions
 3. User/Group: Get Users in Group (Enter Group ID)
 4. Group: Get Policies for a Group
 5. Group: Look up Group by ID or Name
