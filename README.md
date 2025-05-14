@@ -43,7 +43,8 @@ account-idm-read, iam:users:read, iam:groups:read, account-env-read, account-idm
 
   Input: Group ID
 
-  ![image](https://github.com/user-attachments/assets/4a024842-61d1-47fc-b679-41bc47bdcb99)
+  ![image](https://github.com/user-attachments/assets/9f9d2bbf-d6b3-42cf-a134-287f179fd27f)
+
 
   4. Group: Get Policies for a Group
 
@@ -79,7 +80,7 @@ account-idm-read, iam:users:read, iam:groups:read, account-env-read, account-idm
 
   Input: Policy ID, followed by if you want to pull in global/account/environment-level policy rules.
 
-  Output: samea as option #7.
+  Output: same as option #7.
 
   9. Exit
       Exits the script
