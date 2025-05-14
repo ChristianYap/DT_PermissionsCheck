@@ -2,7 +2,7 @@
 # Last updated: 5/10/2025
 # Script to look through user, group, and policies
 # 1. Get Access Token
-# 2. User/Group: Get User's Groups & Permissions (Now Includes Permissions!)
+# 2. User/Group: Get User's Groups & Permissions
 # 3. User/Group: Get Users in Group (Enter Group ID)
 # 4. Group: Get Policies for a Group
 # 5. Group: Look up Group by ID or Name
@@ -67,7 +67,7 @@ def auto_refresh_token():
     while not stop_token_refresh:
         time.sleep(240)  # Wait 4 minutes
         if access_token:  # Only refresh if we already have a token
-            print("\n🔄 Refreshing Access Token...\n")
+            print("\nRefreshing Access Token...\n")
             get_token(CLIENT_ID, CLIENT_SECRET)
 
 def start_token_refresh_thread():
