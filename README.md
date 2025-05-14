@@ -1,4 +1,4 @@
-# ReadME
+# Readme
 
 Script to look through user, group, and policies
 1. Get Access Token
@@ -37,7 +37,7 @@ account-idm-read, iam:users:read, iam:groups:read, account-env-read, account-idm
 
   Sample Output:
   
-  ![image](https://github.com/user-attachments/assets/2a69ea41-4e63-4a5d-9c3f-2d113d807056)
+  ![image](https://github.com/user-attachments/assets/72e64de9-75c6-4aea-831f-face58c804d7)
 
   3. User/Group: Get Users in Group (Enter Group ID)
 
@@ -51,7 +51,8 @@ account-idm-read, iam:users:read, iam:groups:read, account-env-read, account-idm
 
   Output:
 
-  ![image](https://github.com/user-attachments/assets/3686f37d-49ae-494b-aff2-975466c1a714)
+  ![image](https://github.com/user-attachments/assets/45f0a273-b0a8-48fc-977b-d3c9f1a28451)
+
 
   5. Group: Look up Group by ID or Name
 
@@ -63,7 +64,7 @@ account-idm-read, iam:users:read, iam:groups:read, account-env-read, account-idm
 
   Input: Group ID & Policy ID, as well as parameters/metadata/boundaries.
 
-  ![image](https://github.com/user-attachments/assets/51f4e54a-cc98-4eb7-a0e2-e00fb6a16ac4)
+  ![image](https://github.com/user-attachments/assets/8fe7b874-dbb2-4983-8897-be049b81534a)
 
   7. Policy: Get Policy metadata by name
 
