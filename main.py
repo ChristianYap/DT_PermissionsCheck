@@ -193,7 +193,7 @@ def get_policies_for_group(access_token, account_id, environment_id, group_id=No
 
     for scope in scopes:
         scope_display = "Global" if scope == "global" else "Account" if "account" in scope else "Environment"
-        print(f"\n🔍 Checking {scope_display} policies for Group {group_id}...\n")
+        print(f"\n Checking {scope_display} policies for Group {group_id}...\n")
 
         url = f"https://api.dynatrace.com/iam/v1/repo/{scope}/bindings/groups/{group_id}?details=true"
         headers = {
